@@ -6,7 +6,7 @@ import MarkdownEditor from './MarkdownEditor'
 const App = () => {
 
   return (
-    <div>
+    <div className="app">
       <MarkdownEditor />
     </div>
   )
