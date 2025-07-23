@@ -10,3 +10,32 @@ button{
     justify-content: center;
     align-items: center;
 }
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.textarea {
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  border-right: 1px solid #ddd;
+  resize: none;
+  outline: none;
+  background-color: whitesmoke;
+}
+
+.preview {
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: white;
+  color: #333;
+  border-left: 1px solid #eee;
+}
